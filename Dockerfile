@@ -1,6 +1,6 @@
 FROM nginxinc/nginx-unprivileged:latest
 
-COPY /home/user/M109-UEK/ /usr/share/nginx/html
+COPY /file/ /usr/share/nginx/html
 
 WORKDIR /usr/share/nginx/html
 
