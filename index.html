@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Timm Meergans</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #b8b5b59f;;
+    }
+
+    header {
+      background-color: #b8b5b59f;
+      color: #111;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .Einleitung{
+      text-align: center;
+    }
+
+    nav {
+      background-color: #111;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      margin-right: 10px;
+      text-decoration: none;
+      color: #333;
+      text-align: center;
+    }
+
+    main {
+      padding: 20px;
+    }
+    main h2 {
+      text-align: center;
+    }
+
+    .AWS{
+      padding: auto;
+    }
+    .aws-image{
+      align-items: center;
+      margin-top: 1px;
+      width: 200px;
+      height: 200px;
+    }
+
+    .AZURE{
+      padding: auto;
+    }
+
+    .azure-image{
+      align-items: center;
+      margin-top: 1px;
+      width: 300px;
+      height: 200px;
+
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid black;
+      margin: 20px 0;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      text-align: center;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      margin-top: 60px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Mein Cloud Wissen</h1>
+  </header>
+  <!-- Cloud --->
+  <main>
+    <h2>Allgemein Wissen:</h2>
+    <p class="Einleitung">In unserem Unternehmen verwenden wir die Azure Cloud. <br> 
+       Dort habe ich allerdings noch keine wirkliche Erfahrung sammeln können. <br>
+       Mehr Erfahrung im Bezug auf Cloud / Virtualisierung 2.0 / Orchistierung habe ich durch die Schule und ein paar eigene Projekte erhalten. <br>
+       In der Schule, haben wir mit AWS, Docker, Podman und Docker-Compose zutun gehabt.  
+    </p>
+    <br>
+    <br>
+    <h2>Cloud-Anbieter</h2>
+  <div class="AWS">
+    <h3>AWS</h3>
+    <p>Als ein Schulprojekt, habe ich versucht einen Chatbot in der AWS Cloud zu erstellen. 
+       Dies hat aber leider nur so halb funktioniert. 
+       <br>
+       Zudem habe ich die Module 1-10 in der AWS Accademie durchgearbeitet und mir ein Basic wissen angeeignet.
+       <br>
+       AWS ist die Cloud Umgebung von Amazon und basiert auf einer Linux Umgebung 
+    </p>
+    <img class="aws-image" src="./src/AWS-Logo.jpg" alt="AWS-LOGO">
+  
+  </div>
+
+    <br>
+  <div class="AZURE"> 
+    <h3>AZURE</h3>
+    <p>Auf unserer Arbeit verweden wir die Microsoft Azure Cloud. 
+       Dort verwalten wir ein paar Server und Datenbanken. 
+       <br>
+       Zurzeit lerne ich via. Udemy für die AZ-900 Zertifizierung 
+    </p>
+    <img class="azure-image" src="./src/azure.png" alt="AZURE-LOGO">
+  </div> 
+
+    <br>
+    <h3>Linode</h3>
+    <p>Mit Linode, habe ich am Wochenende ein kleines K8s System aufgesetzt und verwalet. 
+       Zudem habe ich für ein Schulprojekt ein Secure Browser erstellt. Das heisst, ich kann mich via. Browser auf ein Server verbinden und dort drüber Webseiten öffnen. 
+       Dadurch können keine Viren auf mein Laptop gelangen. 
+       Ansonsten habe ich aber auch dort noch nichts gemacht
+    </p>
+    <br>
+    <h3>Google Cloud</h3>
+    <p>Mit Google Cloud, habe ich noch nichts zutun gehabt. 
+    </p>
+    <br>
+    <br>
+    <h2>Dienste</h2>
+    <h3>AWS</h3>
+    <p>Für die AWS Cloud, gibt es folgende Dienste:
+       <br>
+       Storage            = Wie zum Beispiel: S3 (Simple Storage Service), Glacie <br>
+       Databases          = Wie zum Beispiel: DynamoDB <br>
+       Compute            = Amazon EC (Elastic Compute Cloud) <br>
+       Serverless Compute = AWS Lambda
+    </p>
+    <br>
+    <h3>AZURE</h3>
+    <p>Für die AZURE Cloud, gibt es folgende Dienste:
+       <br>
+       Storage            = Wie zum Beispiel: Azure Blob Storage <br>
+       Databases          = Wie zum Beispiel: AZURE SQL Databases <br>
+       Compute            = Azure Virtual Machines <br>
+       Serverless Compute = AZURE Functions
+       Dienste            = Intune (Verwaltung von technischen Geräten wie zum Beispiel Handys) oder auch Onedrive
+    </p>
+    <br>
+    <h3>Linode</h3>
+    <p>Für die Linode Cloud, gibt es folgende Dienste:
+       <br>
+       Storage            = Wie zum Beispiel: Linode Object Storage <br>
+       Databases          = Wie zum Beispiel: Linode Managed Databases <br>
+       Orchistierung      = Kubernetes
+    </p>
+    <br>
+    <br>
+  </main>  
+
+  <hr>
+
+  <!-- Git Befehle --->
+  <h2>Git Befehle und Erklährungen</h2>
+  <table>
+    <tr>
+      <th>Git Befehl</th>
+      <th>Erklärung</th>
+    </tr>
+    <tr>
+      <td>git init</td>
+      <td>Initialisiert ein neues Git-Repository</td>
+    </tr>
+    <tr>
+      <td>git clone &lt;repository_url&gt;</td>
+      <td>Klont ein vorhandenes Git-Repositorys</td>
+    </tr>
+    <tr>
+      <td>git add &lt;file&gt "oder auch" git add . ;</td>
+      <td>Fügt eine Datei oder das ganze Repo zur Staging-Area hinzu</td>
+    </tr>
+    <tr>
+      <td>git commit -m "Commit message"</td>
+      <td>Erstellt einen Commit mit einer Bedeutung in der Staging-Area</td>
+    </tr>
+    <tr>
+      <td>git push</td>
+      <td>Lädt lokale Commits in ein entferntes Repository hoch</td>
+    </tr>
+    <tr>
+      <td>git pull</td>
+      <td>Lädt die neuesten Änderungen aus einem Remote-Repository herunter</td>
+    </tr>
+    <tr>
+      <td>git branch</td>
+      <td>Zeigt eine Liste der vorhandenen Branches an</td>
+    </tr>
+    <tr>
+      <td>git checkout &lt;branch&gt;</td>
+      <td>Wechselt zu einem anderen Branch im Repository</td>
+    </tr>
+    <tr>
+      <td>git merge &lt;branch&gt;</td>
+      <td>Führt die Änderungen aus einem anderen Branch zusammen</td>
+    </tr>
+    <tr>
+      <td>git status</td>
+      <td>Zeigt den aktuellen Status des Repositorys an</td>
+    </tr>
+  </table>
+
+
+
+
+  
+  <footer>
+    &copy; Timmy Mimmy 
+  </footer>
+</body>
+</html>
